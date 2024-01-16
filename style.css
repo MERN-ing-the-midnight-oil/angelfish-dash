@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #80deea;
+    color: #006064;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 560px;
+}
+
+footer {
+    background-color: #4db6ac;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#venmo-link {
+    font-size: 1.5em; 
+    color: #0056b3; 
+    text-decoration: none; 
+}
+
+#venmo-link:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+@media (max-width: 600px) {
+    header, section, footer {
+        padding: 10px;
+    }
+
+    video {
+        max-width: 100%;
+    }
+}
